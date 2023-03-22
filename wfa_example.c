@@ -21,5 +21,6 @@ int main(void){
 
 }
 
-//> gcc -Wall -g -O3 -march=native  -L../lib -I.. wfa_basic.c -o bin/wfa_basic -lwfa -fopenmp -lm -lrt
+//compiled with
+//gcc -Wall -g -O3 -march=native -L"./WFA2-lib/install/lib" -I"./WFA2-lib/install/include/wfa2lib" wfa_example.c -o wfa_example -lwfa -fopenmp -lm -lrt 
 
